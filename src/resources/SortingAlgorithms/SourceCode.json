@@ -1,0 +1,10 @@
+{
+    "bubble": {
+        "python": [
+            {
+                "author": "J. Enrique",
+                "code": "def bubble(lst):\n\tlength = len(lst)\n\twhile length > 1:\n\t    for i in range(1, length):\n\t        if lst[i-1] > lst[i]:\n\t            tmp = lst[i-1]\n\t            lst[i - 1] = lst[i]\n\t            lst[i] = tmp\n\t    length -= 1  # last item is always sorted after an iteration\n\treturn lst\n"
+            }
+        ]
+    }
+}
